@@ -1,11 +1,14 @@
 /*************************************************
     TABLET VIEWPORT
  *************************************************/
+ @media screen and (max-width: 1160px){
 
- .container{
-     width: 100%;
+    .container{
+        max-width: 100%;
  }
 
+}
+ 
  @media screen and (max-width: 768px){
      
     .lessons .col img, .steps .col img{
