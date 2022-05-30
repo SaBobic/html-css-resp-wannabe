@@ -2,14 +2,18 @@
     TABLET VIEWPORT
  *************************************************/
 
+ .container{
+     width: 100%;
+ }
+
  @media screen and (max-width: 768px){
+     
+    .lessons .col img, .steps .col img{
+         height: 250px;
+     }
 
     body{
         font-size: 1.3rem;
-    }
-
-    .container{
-        width: 100%;
     }
 
     h1 {
@@ -24,9 +28,6 @@
         font-size: 2rem;
     }
 
-    .lessons .col img, .steps .col img{
-        height: 250px;
-    }
  }
 
  /*************************************************
